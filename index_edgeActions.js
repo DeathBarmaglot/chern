@@ -13,7 +13,7 @@ var Composition = Edge.Composition, Symbol = Edge.Symbol; // aliases for commonl
    (function(symbolName) {
       
       
-      Symbol.bindTriggerAction(compId, symbolName, "Default Timeline", 11000, function(sym, e) {
+      Symbol.bindTriggerAction(compId, symbolName, "Default Timeline", 8000, function(sym, e) {
          
          sym.play(0);
 
